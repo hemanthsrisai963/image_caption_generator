@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">upload the picture</h1>
+    <p class="lead">...</p>
+    <hr class="my-4">
+    <img src="static/progress.gif" width="50px" id="prog" style="display: none;" />
+    <form method="post" action="dashboard" enctype="multipart/form-data">
+        <input type="file" name="file" /> <input onclick="prog.style.display='block';" type="submit" />
+    </form>
+</div>
+{% endblock %}

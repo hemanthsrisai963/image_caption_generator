@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'arial', serif;
+    background: linear-gradient(to right, #3234a8, #0dc6ff); /* Gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Glass effect */
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    width:280px;
+    height: 60%; /* Increased width */
+}
+
+.container button{text-align: center;}
+
+
+
+/* Form Styles */
+.form-box  h2{
+     text-align: center 
+}
+.form-box label {
+    display: inline-block; /* Display labels inline */
+    width: 200px; /* Fixed width for labels */
+    margin-right: 10px;
+    margin-bottom: 5px;; /* Spacing between label and input */
+    font-size: 18px; /* Increased label size */
+}
+
+.show{
+        width: 100px;
+        height: 30px;
+       margin-bottom: 30px;
+       display: flex;
+       align-items: center;
+
+}
+
+.form-box input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-box button {
+    background-color: #3234a8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.form-box button:hover {
+    background-color: #0dc6ff;
+    align-items: center;
+}
+
+.form-box button:active {
+    background-color: #158aad;
+}
+
+
